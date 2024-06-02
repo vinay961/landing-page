@@ -276,7 +276,15 @@ nav ul li a:hover{
 }
 .s11{
     position: absolute;
+    height: 220px;
+    width: 246px;
+    z-index: 1;
+    right: 0px;
 }
 .s22{
     position: absolute;
+    height: 206px;
+    width: 224px;
+    right: 25px;
+    top: 931px;
 }
