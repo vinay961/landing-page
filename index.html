@@ -5,48 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo"><img src="./photos/Group.png" alt=""></div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Features</a></li>
-            </ul>
-            <a href="#" class="download-btn">Download</a>
-        </nav>
-    </header>
-    <div class="hero">
-        <div class="hero-text">
-            <img class="star1" src="./photos/Star.png" alt="">
-            <img class="shadow1" src="./photos/shadow1.png" alt="">
-            <img  class="shadow2" src="./photos/shadow2.png" alt="">
-            <h1>Make The Best Financial Decisions</h1>
-            <p>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
-            <div class="cta-buttons">
-                <a href="#" class="btn">Get Started</a>
-                <a href="#" class="video-link">Watch Video</a>
+    <section class="mb-60"> 
+        <header>
+            <nav>
+                <div class="logo"><img src="./photos/Group.png" alt=""></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Features</a></li>
+                </ul>
+                <a href="#" class="download-btn">Download</a>
+            </nav>
+        </header>
+        <div class="hero">
+            <div class="hero-text">
+                <img class="star1" src="./photos/Star.png" alt="">
+                <img class="shadow1" src="./photos/shadow1.png" alt="">
+                <img class="shadow2" src="./photos/shadow2.png" alt="">
+                <h1>Make The Best Financial Decisions</h1>
+                <p>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn">Get Started</a>
+                    <a href="#" class="video-link">Watch Video</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img class="Star2" src="./photos/Star.png" alt="">
+                <img class="shad" src="./photos/shadow1.png" alt="">
+                <img class="img1" src="./photos/iphone.png" alt="">
+                <img class="img2" src="./photos/iphone1.png" alt="">
+                <img class="img3" src="./photos/iphone.png" alt="">
+                <img class="ell1" src="./photos/ellipse.png" alt="">
+                <img class="ell2" src="./photos/ellipse.png" alt="">
+                <img class="ell3" src="./photos/ellipse.png" alt="">
             </div>
         </div>
-        <div class="hero-image">
-            <img class="Star2" src="./photos/Star.png" alt="">
-            <img class="shad" src="./photos/shadow1.png" alt="">
-            <img class="img1" src="./photos/iphone.png" alt="">
-            <img class="img2" src="./photos/iphone1.png" alt="">
-            <img class="img3"  src="./photos/iphone.png" alt="">
-            <img class="ell1"  src="./photos/ellipse.png" alt="">
-            <img class="ell2" src="./photos/ellipse.png" alt="">
-            <img class="ell3"  src="./photos/ellipse.png" alt="">
+        <div class="footer">
+            <img class="Star3" src="./photos/Star.png" alt="">
+            <img class="foot" src="./photos/section.png" alt="">
+            <img class="myfoot" src="./photos/a.png" alt="">
         </div>
-    </div>
-    <div class="footer">
-        <img class="Star3" src="./photos/Star.png" alt="">
-        <img class="foot" src="./photos/section.png" alt="">
-        <img class="myfoot" src="./photos/a.png" alt="">
-    </div>
+    </section>
+    <section class="flex flex-col md:flex-row items-center justify-center md:justify-between py-16 px-4 md:px-8 lg:px-16">
+        <!-- Image Container -->
+        <div class="relative w-full md:w-1/2 flex justify-center md:justify-end mb-8 md:mb-0">
+            <img class="s1" src="./photos/shadow1.png" alt="">
+            <img class="s2" src="./photos/shadow2.png" alt="">
+            <img src="./NextSecPhoto/istraight.png" alt="Phone Image" class="relative z-10 phone">
+            <!-- Background Graphics -->
+            <img class="absolute ellipse1" src="./NextSecPhoto/ellipse.png" alt="">
+            <img class="absolute ellipse2" src="./NextSecPhoto/ellipse.png" alt="">
+            <img class="absolute ellipse3" src="./NextSecPhoto/ellipse.png" alt="">
+            
+        </div>
+        <!-- Text Container -->
+        <div class="w-full md:w-1/2 space-y-4">
+            <img class="absolute left-10" src="./photos/Star.png" alt="">
+            <img class="s11" src="./photos/shadow1.png" alt="">
+            <img class="s22" src="./photos/shadow2.png" alt="">
+            <h2 class="text-red-500 text-lg font-semibold">FEATURES</h2>
+            <h1 class="text-4xl lg:text-5xl font-bold">Uifry Premium</h1>
+            
+            <!-- Feature List -->
+            <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                    <img src="./NextSecPhoto/star.png" alt="Star Icon" class="w-6 h-6 mt-1">
+                    <div>
+                        <h3 class="text-xl font-semibold">Budgeting Intervals</h3>
+                        <p class="text-gray-600">Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <img src="./NextSecPhoto/cube.png" alt="Star Icon" class="w-6 h-6 mt-1">
+                    <div>
+                        <h3 class="text-xl font-semibold">Budgeting Intervals</h3>
+                        <p class="text-gray-600">Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <img src="./NextSecPhoto/cube2.png" alt="Star Icon" class="w-6 h-6 mt-1">
+                    <div>
+                        <h3 class="text-xl font-semibold">Budgeting Intervals</h3>
+                        <p class="text-gray-600">Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

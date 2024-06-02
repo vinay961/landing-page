@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
     /* font-family: 'Arial', sans-serif; */
 }
 
@@ -232,4 +233,50 @@ nav ul li a:hover{
 }
 .Star3{
     left: 350px;
+}
+
+/* Section-2 */
+
+.phone{
+    top: 63px;
+    height: 648px;
+    right: 44px;
+}
+.ellipse1{
+    height: 449px;
+    top: 82px;
+    width: 400px;
+    right: 67px;
+}
+.ellipse2{
+    height: 449px;
+    top: 112px;
+    width: 400px;
+    right: 89px;
+}
+.ellipse3{
+    height: 449px;
+    top: 141px;
+    width: 405px;
+    right: 99px;
+}
+.s1{
+    position: absolute;
+    height: 400px;
+    z-index: -1;
+    right: 68px;
+    top: 132px;;
+}
+.s2{
+    position: absolute;
+    height: 400px;
+    z-index: -2;
+    right: 68px;
+    top: 14px;
+}
+.s11{
+    position: absolute;
+}
+.s22{
+    position: absolute;
 }
