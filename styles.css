@@ -11,6 +11,8 @@ body {
     line-height: 1.6;
 }
 
+
+/* Header Css handing */
 header {
     background: #fff;
     padding: 20px 0;
@@ -63,6 +65,9 @@ nav ul li a:hover{
     transform: scale(1.1); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
+
+/* Hero text Section */
 .hero{
     display: flex;
     justify-content: space-around;
@@ -153,6 +158,8 @@ nav ul li a:hover{
     display: inline-block;
     margin-right: 10px;
 }
+
+/* Hero Image section */
 .hero-image{
     border: 1px solid black;
     overflow: hidden;
@@ -207,6 +214,8 @@ nav ul li a:hover{
     top: 217px;
 }
 
+
+/* Footer Section */
 .footer img{
     position: absolute;
 }
